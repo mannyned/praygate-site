@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Install PrayGate</title>
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, system-ui, sans-serif;
+      background: #0C0E12; color: #F4F5F7;
+      display: flex; align-items: center; justify-content: center;
+      min-height: 100vh; padding: 24px;
+    }
+    .card {
+      text-align: center; max-width: 400px;
+    }
+    h1 { font-size: 1.5rem; margin-bottom: 8px; }
+    p { font-size: 0.9375rem; color: #8B91A0; margin-bottom: 32px; }
+    .install-btn {
+      display: inline-block;
+      padding: 16px 40px;
+      background: #2DD4BF; color: #0C0E12;
+      font-size: 1rem; font-weight: 600;
+      border-radius: 12px;
+      text-decoration: none;
+    }
+    .note {
+      font-size: 0.75rem; color: #5C6275;
+      margin-top: 24px; line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>PrayGate Preview</h1>
+    <p>Tap the button below to install PrayGate on your iPhone.</p>
+    <a class="install-btn" href="itms-services://?action=download-manifest&url=https://mannyned.github.io/praygate-site/manifest.plist">Install PrayGate</a>
+    <p class="note">Your device must be registered for Ad Hoc distribution. Open this page in Safari on your iPhone.</p>
+  </div>
+</body>
+</html>
